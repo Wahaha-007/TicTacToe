@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+html{
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 14px;
+}
+
+body {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+.mheader{
+    display :flex;
+    justify-content: center;
+    align-items: center;
+ 
+    font-size: 26px;
+    font-weight: bold;
+    margin : 20px 0;
+}
+
+.mfooter{
+    display :flex;
+    justify-content: center;
+    align-items: center;
+ 
+    font-size: 14px;
+    margin:10px 0;
+}
+
+.mbody{
+    flex : 1;
+    display: flex;
+    height: 100%;
+
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-mbody {
+    flex:1;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.mboard {
+    display: flex;
+
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+
+    width:420px;
+    height:420px;
+}
+
+.left-mbody, .right-mbody {
+    
+    display: flex;
+
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+
+    width:300px;
+}
+
+.d-left-mbody, .d-right-mbody {
+    
+    display: flex;
+
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+.d-left-mbody .hscore{
+
+    font-size: 60px;
+}
+
+.d-right-mbody .hscore{
+
+    font-size: 60px;
+}
+
+
+.brow {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cell {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    color:white;
+    background-color:gray;
+    border-style: none;
+    border-width: 3px;
+    border-color:white;
+
+    padding: 0;
+    margin: 4px;
+    width :130px;
+    height:130px;
+
+    font-size: 80px;
+    font-weight: bold;
+
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.cell:hover {opacity: 1}
